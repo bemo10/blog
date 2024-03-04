@@ -51,7 +51,7 @@ namespace App\Models{
  * @property-read \App\Models\User|null $author
  * @property-read \App\Models\Category|null $category
  * @method static \Database\Factories\PostFactory factory(...$parameters)
- * @method static \Illuminate\Database\Eloquent\Builder|Post filter()
+ * @method static \Illuminate\Database\Eloquent\Builder|Post filter(array $filters)
  * @method static \Illuminate\Database\Eloquent\Builder|Post newModelQuery()
  * @method static \Illuminate\Database\Eloquent\Builder|Post newQuery()
  * @method static \Illuminate\Database\Eloquent\Builder|Post query()
